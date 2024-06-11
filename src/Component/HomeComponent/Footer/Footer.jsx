@@ -120,12 +120,12 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="flex flex-wrap justify-between gap-x-6 pt-8 sm:flex-nowrap lg:pt-0 xl:gap-x-14">
+            <div className="flex flex-wrap justify-between gap-x-6 gap-y-5 pt-8 sm:flex-nowrap lg:pt-0 xl:gap-x-14">
               <div>
                 <p className="pb-5 font-Montserrat text-sm font-bold text-primaryFontColor md:text-xl">
                   Opening Restaurant
                 </p>
-                <ul className="gap-y-8 font-Montserrat text-xs font-normal text-[#B6B6B6] md:gap-3 md:text-sm lg:text-base">
+                <ul className="gap-y-8 font-Montserrat text-sm font-normal text-[#B6B6B6] md:gap-3 md:text-sm lg:text-base">
                   <li>
                     <a href="#">Sat-Wet: 09:00am-10:00PM</a>
                   </li>
@@ -141,7 +141,7 @@ const Footer = () => {
                 <p className="pb-5 font-Montserrat text-sm font-bold text-primaryFontColor md:text-xl">
                   User Link
                 </p>
-                <ul className="gap-y-8 font-Montserrat text-xs font-normal text-[#B6B6B6] md:gap-3 md:text-sm lg:text-base">
+                <ul className="gap-y-8 font-Montserrat text-sm font-normal text-[#B6B6B6] md:gap-3 md:text-sm lg:text-base">
                   <li>
                     <a href="#">About Us</a>
                   </li>
@@ -164,7 +164,7 @@ const Footer = () => {
                 <p className="pb-5 font-Montserrat text-sm font-bold text-primaryFontColor md:text-xl">
                   Contact Us
                 </p>
-                <ul className="gap-y-8 font-Montserrat text-xs font-normal text-[#B6B6B6] md:gap-3 md:text-sm lg:text-base">
+                <ul className="gap-y-8 font-Montserrat text-sm font-normal text-[#B6B6B6] md:gap-3 md:text-sm lg:text-base">
                   <li>
                     <a href="#">Mohammadpur, Dhaka</a>
                   </li>
