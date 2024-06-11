@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primaryFontColor: #000000;
+  --secondaryFontColor: #f48e28;
+  --white: #fff;
+  --additionalColor: #f5ddc4;
+  --Montserrat: "Montserrat", sans-serif;
+}
+@layer base {
+  /* Montserrat */
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+  /* common css */
+
+  * {
+    @apply m-0 p-0 outline-none box-border;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  li,
+  a,
+  div,
+  img,
+  ol {
+    @apply m-0 p-0;
+  }
+  a {
+    @apply no-underline;
+  }
+
+  img {
+    @apply align-middle;
+  }
+}
